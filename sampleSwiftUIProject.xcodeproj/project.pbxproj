@@ -14,7 +14,6 @@
 		644A42E5287D9A1A00F613FA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E4287D9A1A00F613FA /* TabBarView.swift */; };
 		644A42E8287D9CE400F613FA /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E7287D9CE400F613FA /* Demo.swift */; };
 		644A42EA287D9DFC00F613FA /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E9287D9DFC00F613FA /* HeaderModifier.swift */; };
-		644A42EC287DB45B00F613FA /* RegularModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42EB287DB45B00F613FA /* RegularModifier.swift */; };
 		644A42EF287DB64F00F613FA /* LoginVKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42EE287DB64F00F613FA /* LoginVKView.swift */; };
 		644A42F3287EBACC00F613FA /* Top100FilmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42F2287EBACC00F613FA /* Top100FilmList.swift */; };
 		644A42F52881E57700F613FA /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42F42881E57700F613FA /* Film.swift */; };
@@ -28,6 +27,7 @@
 		644A430B2884297400F613FA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430A2884297400F613FA /* Extension.swift */; };
 		644A430D2884393B00F613FA /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430C2884393B00F613FA /* CacheAsyncImage.swift */; };
 		644A430F28844B4D00F613FA /* DetailFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430E28844B4D00F613FA /* DetailFilmView.swift */; };
+		644A431328846D2100F613FA /* RegularModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A431228846D2100F613FA /* RegularModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		644A42E4287D9A1A00F613FA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		644A42E7287D9CE400F613FA /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 		644A42E9287D9DFC00F613FA /* HeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModifier.swift; sourceTree = "<group>"; };
-		644A42EB287DB45B00F613FA /* RegularModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularModifier.swift; sourceTree = "<group>"; };
 		644A42EE287DB64F00F613FA /* LoginVKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVKView.swift; sourceTree = "<group>"; };
 		644A42F2287EBACC00F613FA /* Top100FilmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top100FilmList.swift; sourceTree = "<group>"; };
 		644A42F42881E57700F613FA /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		644A430A2884297400F613FA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		644A430C2884393B00F613FA /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
 		644A430E28844B4D00F613FA /* DetailFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmView.swift; sourceTree = "<group>"; };
+		644A431228846D2100F613FA /* RegularModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			children = (
 				644A42E7287D9CE400F613FA /* Demo.swift */,
 				644A42E9287D9DFC00F613FA /* HeaderModifier.swift */,
-				644A42EB287DB45B00F613FA /* RegularModifier.swift */,
+				644A431228846D2100F613FA /* RegularModifier.swift */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -252,6 +252,7 @@
 				644A42F52881E57700F613FA /* Film.swift in Sources */,
 				644A43092884277F00F613FA /* FilmListItem.swift in Sources */,
 				644A42EA287D9DFC00F613FA /* HeaderModifier.swift in Sources */,
+				644A431328846D2100F613FA /* RegularModifier.swift in Sources */,
 				644A430D2884393B00F613FA /* CacheAsyncImage.swift in Sources */,
 				644A42D9287D960600F613FA /* ContentView.swift in Sources */,
 				644A430F28844B4D00F613FA /* DetailFilmView.swift in Sources */,
@@ -260,7 +261,6 @@
 				644A42E5287D9A1A00F613FA /* TabBarView.swift in Sources */,
 				644A430B2884297400F613FA /* Extension.swift in Sources */,
 				644A43062884066700F613FA /* DetailFilmViewModel.swift in Sources */,
-				644A42EC287DB45B00F613FA /* RegularModifier.swift in Sources */,
 				644A42E8287D9CE400F613FA /* Demo.swift in Sources */,
 				644A42EF287DB64F00F613FA /* LoginVKView.swift in Sources */,
 				644A42FA2883FB6100F613FA /* Posters.swift in Sources */,
