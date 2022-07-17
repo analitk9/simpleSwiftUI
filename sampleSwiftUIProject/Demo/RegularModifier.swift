@@ -3,18 +3,24 @@
 //  sampleSwiftUIProject
 //
 //  Created by Denis Evdokimov on 7/17/22.
-//
 
+
+import Foundation
 import SwiftUI
 
-struct RegularModifier: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+struct RegularModifier: ViewModifier {
 
-struct RegularModifier_Previews: PreviewProvider {
-    static var previews: some View {
-        RegularModifier()
+    func body(content: Content) -> some View {
+       
+            content
+            .font(.body)
+            .foregroundColor(.brown)
+                
+        }
+    }
+
+extension View {
+    func regularModifier() -> some View {
+        modifier(RegularModifier())
     }
 }
