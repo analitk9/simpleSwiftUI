@@ -11,6 +11,23 @@
 		644A42D9287D960600F613FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42D8287D960600F613FA /* ContentView.swift */; };
 		644A42DB287D960700F613FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644A42DA287D960700F613FA /* Assets.xcassets */; };
 		644A42DE287D960700F613FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644A42DD287D960700F613FA /* Preview Assets.xcassets */; };
+		644A42E5287D9A1A00F613FA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E4287D9A1A00F613FA /* TabBarView.swift */; };
+		644A42E8287D9CE400F613FA /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E7287D9CE400F613FA /* Demo.swift */; };
+		644A42EA287D9DFC00F613FA /* HeaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42E9287D9DFC00F613FA /* HeaderModifier.swift */; };
+		644A42EC287DB45B00F613FA /* RegularModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42EB287DB45B00F613FA /* RegularModifier.swift */; };
+		644A42EF287DB64F00F613FA /* LoginVKView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42EE287DB64F00F613FA /* LoginVKView.swift */; };
+		644A42F3287EBACC00F613FA /* Top100FilmList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42F2287EBACC00F613FA /* Top100FilmList.swift */; };
+		644A42F52881E57700F613FA /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42F42881E57700F613FA /* Film.swift */; };
+		644A42FA2883FB6100F613FA /* Posters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42F92883FB6100F613FA /* Posters.swift */; };
+		644A42FC2883FCCD00F613FA /* DetailFilm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A42FB2883FCCD00F613FA /* DetailFilm.swift */; };
+		644A42FF288401CA00F613FA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 644A42FE288401CA00F613FA /* Moya */; };
+		644A4301288402A700F613FA /* RequestKinopoisk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A4300288402A700F613FA /* RequestKinopoisk.swift */; };
+		644A43042884062100F613FA /* Top100ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A43032884062100F613FA /* Top100ViewModel.swift */; };
+		644A43062884066700F613FA /* DetailFilmViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A43052884066700F613FA /* DetailFilmViewModel.swift */; };
+		644A43092884277F00F613FA /* FilmListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A43082884277F00F613FA /* FilmListItem.swift */; };
+		644A430B2884297400F613FA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430A2884297400F613FA /* Extension.swift */; };
+		644A430D2884393B00F613FA /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430C2884393B00F613FA /* CacheAsyncImage.swift */; };
+		644A430F28844B4D00F613FA /* DetailFilmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644A430E28844B4D00F613FA /* DetailFilmView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,22 @@
 		644A42D8287D960600F613FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		644A42DA287D960700F613FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		644A42DD287D960700F613FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		644A42E4287D9A1A00F613FA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		644A42E7287D9CE400F613FA /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		644A42E9287D9DFC00F613FA /* HeaderModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModifier.swift; sourceTree = "<group>"; };
+		644A42EB287DB45B00F613FA /* RegularModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularModifier.swift; sourceTree = "<group>"; };
+		644A42EE287DB64F00F613FA /* LoginVKView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVKView.swift; sourceTree = "<group>"; };
+		644A42F2287EBACC00F613FA /* Top100FilmList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top100FilmList.swift; sourceTree = "<group>"; };
+		644A42F42881E57700F613FA /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		644A42F92883FB6100F613FA /* Posters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posters.swift; sourceTree = "<group>"; };
+		644A42FB2883FCCD00F613FA /* DetailFilm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilm.swift; sourceTree = "<group>"; };
+		644A4300288402A700F613FA /* RequestKinopoisk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestKinopoisk.swift; sourceTree = "<group>"; };
+		644A43032884062100F613FA /* Top100ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top100ViewModel.swift; sourceTree = "<group>"; };
+		644A43052884066700F613FA /* DetailFilmViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmViewModel.swift; sourceTree = "<group>"; };
+		644A43082884277F00F613FA /* FilmListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListItem.swift; sourceTree = "<group>"; };
+		644A430A2884297400F613FA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		644A430C2884393B00F613FA /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		644A430E28844B4D00F613FA /* DetailFilmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFilmView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644A42FF288401CA00F613FA /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,10 +85,15 @@
 		644A42D5287D960600F613FA /* sampleSwiftUIProject */ = {
 			isa = PBXGroup;
 			children = (
+				644A42F0287E1B2800F613FA /* Films */,
+				644A42ED287DB63100F613FA /* VKlogin */,
+				644A42E6287D9CD100F613FA /* Demo */,
+				644A42E4287D9A1A00F613FA /* TabBarView.swift */,
 				644A42D6287D960600F613FA /* sampleSwiftUIProjectApp.swift */,
 				644A42D8287D960600F613FA /* ContentView.swift */,
 				644A42DA287D960700F613FA /* Assets.xcassets */,
 				644A42DC287D960700F613FA /* Preview Content */,
+				644A430A2884297400F613FA /* Extension.swift */,
 			);
 			path = sampleSwiftUIProject;
 			sourceTree = "<group>";
@@ -65,6 +104,73 @@
 				644A42DD287D960700F613FA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		644A42E6287D9CD100F613FA /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				644A42E7287D9CE400F613FA /* Demo.swift */,
+				644A42E9287D9DFC00F613FA /* HeaderModifier.swift */,
+				644A42EB287DB45B00F613FA /* RegularModifier.swift */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		644A42ED287DB63100F613FA /* VKlogin */ = {
+			isa = PBXGroup;
+			children = (
+				644A42EE287DB64F00F613FA /* LoginVKView.swift */,
+			);
+			path = VKlogin;
+			sourceTree = "<group>";
+		};
+		644A42F0287E1B2800F613FA /* Films */ = {
+			isa = PBXGroup;
+			children = (
+				644A43072884275000F613FA /* Views */,
+				644A43022884060400F613FA /* ViewModel */,
+				644A42F62881E63A00F613FA /* Service */,
+				644A42F1287E1B4200F613FA /* Model */,
+				644A42F2287EBACC00F613FA /* Top100FilmList.swift */,
+				644A430E28844B4D00F613FA /* DetailFilmView.swift */,
+			);
+			path = Films;
+			sourceTree = "<group>";
+		};
+		644A42F1287E1B4200F613FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				644A42F42881E57700F613FA /* Film.swift */,
+				644A42F92883FB6100F613FA /* Posters.swift */,
+				644A42FB2883FCCD00F613FA /* DetailFilm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		644A42F62881E63A00F613FA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				644A4300288402A700F613FA /* RequestKinopoisk.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		644A43022884060400F613FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				644A43032884062100F613FA /* Top100ViewModel.swift */,
+				644A43052884066700F613FA /* DetailFilmViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		644A43072884275000F613FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				644A43082884277F00F613FA /* FilmListItem.swift */,
+				644A430C2884393B00F613FA /* CacheAsyncImage.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +189,9 @@
 			dependencies = (
 			);
 			name = sampleSwiftUIProject;
+			packageProductDependencies = (
+				644A42FE288401CA00F613FA /* Moya */,
+			);
 			productName = sampleSwiftUIProject;
 			productReference = 644A42D3287D960600F613FA /* sampleSwiftUIProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +220,9 @@
 				Base,
 			);
 			mainGroup = 644A42CA287D960600F613FA;
+			packageReferences = (
+				644A42FD288401CA00F613FA /* XCRemoteSwiftPackageReference "Moya" */,
+			);
 			productRefGroup = 644A42D4287D960600F613FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +249,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				644A42F52881E57700F613FA /* Film.swift in Sources */,
+				644A43092884277F00F613FA /* FilmListItem.swift in Sources */,
+				644A42EA287D9DFC00F613FA /* HeaderModifier.swift in Sources */,
+				644A430D2884393B00F613FA /* CacheAsyncImage.swift in Sources */,
 				644A42D9287D960600F613FA /* ContentView.swift in Sources */,
+				644A430F28844B4D00F613FA /* DetailFilmView.swift in Sources */,
+				644A43042884062100F613FA /* Top100ViewModel.swift in Sources */,
+				644A4301288402A700F613FA /* RequestKinopoisk.swift in Sources */,
+				644A42E5287D9A1A00F613FA /* TabBarView.swift in Sources */,
+				644A430B2884297400F613FA /* Extension.swift in Sources */,
+				644A43062884066700F613FA /* DetailFilmViewModel.swift in Sources */,
+				644A42EC287DB45B00F613FA /* RegularModifier.swift in Sources */,
+				644A42E8287D9CE400F613FA /* Demo.swift in Sources */,
+				644A42EF287DB64F00F613FA /* LoginVKView.swift in Sources */,
+				644A42FA2883FB6100F613FA /* Posters.swift in Sources */,
 				644A42D7287D960600F613FA /* sampleSwiftUIProjectApp.swift in Sources */,
+				644A42FC2883FCCD00F613FA /* DetailFilm.swift in Sources */,
+				644A42F3287EBACC00F613FA /* Top100FilmList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +467,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		644A42FD288401CA00F613FA /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		644A42FE288401CA00F613FA /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 644A42FD288401CA00F613FA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 644A42CB287D960600F613FA /* Project object */;
 }
